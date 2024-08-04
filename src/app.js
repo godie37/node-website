@@ -6,13 +6,12 @@ const app = express();
 
 
 app.get('/', (req, res) => {  
-  res.send('<h1>Hello World!</h1>');
-  res.end();
+  res.send("Hello World!");
+  
 });
 
 app.get('/about', (req, res) => {  
   res.send('h1>About - Hello World!</h1>');
-  res.end();
 });
 
 
